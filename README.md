@@ -1,7 +1,8 @@
 ## About MyFirstTestRepo
 This space is being use to as a scratchpad to organize task, requests, thought balloons, as well as, Issues, Pull Requests and Projects currently circling my brainspace.
 
-It was created using an action template, details below
+It was created using an Awesome Actions, details below.  Follow the link to create your own, mad ❤️ for this as GH newbie!
+https://github.com/octodemo/awesome-actions
 
 # awesome-actions
 
@@ -19,13 +20,6 @@ Awesome actions is a repository template that comes with pre-configured GitHub A
 * automatically disables bootstrap workflows after initial execution
 
 Any repository that will use this template as its base will automatically get those workflows enabled. It can be used as a show case on how Open and Inner Source best practices (like welcoming new contributors) as well as bootstrapping project boards can be "codified" and reused and constantly improved as part of a repository template. It also demonstrates how to react on non CI/CD specific events likes issues, pull requests, added stars and peridodic workflow executions.
-
-## How to use this repository
-
-Please do not work with this repository directly unless you like to contribute to its core functionality. Instead, please use it as a repository template and create a new repository for yourself based on this template. All you have to do is to click on the green __Use this template__ button above:
-
-![image](https://user-images.githubusercontent.com/1872314/64283899-a8f1c780-cf58-11e9-8998-55872ef55784.png)
-
 
 ## Actions used in this repository:
 
