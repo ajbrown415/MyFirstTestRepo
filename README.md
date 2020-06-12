@@ -1,3 +1,8 @@
+## About MyFirstTestRepo
+This space is being use to as a scratchpad to organize task, requests, thought balloons, as well as, Issues, Pull Requests and Projects currently circling my brainspace.
+
+It was created using an action template, details below
+
 # awesome-actions
 
 Awesome actions is a repository template that comes with pre-configured GitHub Actions that
@@ -28,16 +33,3 @@ Please do not work with this repository directly unless you like to contribute t
 - Marking issues as stale from [this Action](https://github.com/actions/stale)
 - Committing back to the repository to change the README file and disable bootstrapping workflows from [this Action](https://github.com/elstudio/actions-js-build/tree/master/commit)
 - Creating first issue from a file from [this Action](https://github.com/peter-evans/create-issue-from-file)
-
-## Contributions welcome
-
-If you have any examples for great Actions as part of a repository template to show case the power of Actions outside traditional CI/CD, we are looking forward to your PRs.
-
-### Star Gazers
-
-
-We got a :star: from [@TimoWilhelm](https://github.com/TimoWilhelm)
-
-We got a :star: from [@schtefan](https://github.com/schtefan)
-
-We got a :star: from [@andygrunwald](https://github.com/andygrunwald)
