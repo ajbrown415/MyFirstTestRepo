@@ -1,16 +1,7 @@
-trigger: project_status
-title: Project status
-description: Update the team on your project's status.
-surfaces:
-- issue
+trigger: status_form
+title: POC Status form
+description: Provide standard update for POC progress
 steps:
-- type: menu
-  id: project
-  label: Project name
-  options:
-    - Technical Debt
-    - Add Widget
-    - Bug Bash
 - type: form
   style: embedded
   body:
@@ -30,5 +21,10 @@ steps:
       label: Details
       description: What should the team know about the status of your project?
       placeholder: Recent achievements, blockers, requests for help, etc.
+  actions:
+    submit: "Create"
+    cancel: "Discard"
 - type: fill
-  template: "The {{ data.project }} project is status {{ data.Color }}. {{ data.Details }}"
+  template: |-
+    Color: {{ data.Color }}
+    Details: {{ data.Details }}
