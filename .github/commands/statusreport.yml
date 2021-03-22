@@ -1,6 +1,3 @@
-# Learn more about the syntax here:
-# https://docs.github.com/en/early-access/github/save-time-with-slash-commands/syntax-for-user-defined-slash-commands
----
 trigger: project_status
 title: Project status
 description: Update the team on your project's status.
@@ -35,4 +32,3 @@ steps:
       placeholder: Recent achievements, blockers, requests for help, etc.
 - type: fill
   template: "The {{ data.project }} project is status {{ data.Color }}. {{ data.Details }}"
- 
